@@ -37,7 +37,7 @@ ignoreErrors = ["error-disable-taxonomy"]
 		
         [[params.social.list]]
         icon = "fab fa-github"
-        url = "https://github.com/prslima"
+        url = "https://github.com/paulorobertolima"
         title = "GitHub"
 		
     # Education section
@@ -141,8 +141,15 @@ ignoreErrors = ["error-disable-taxonomy"]
 # PROMPT CHATGPT: Dê uma olhada na minha experiência profissional no LinkedIn. Nela, tenho algumas empresas e várias experiências diferentes. Crie um único texto corrido para cada empresa listada, agrupando todas as experiências em uma única empresa em um único texto corrido, conciso e bastante resumido, com no máximo duas linhas. Desconsidere totalmente as competências citadas. Não precisa listar as funções exercidas na empresa e atente-se para não criar mais de um texto por empresa: "Colar experiência do LinkedIn"
 
         [[params.jobs.list]]
+        position = "Arquiteto de Soluções Cloud"
+        dates = "10/2025 - *Present*"
+		link = "https://www.dnxbrasil.com.br/"
+        company = "DNX Brasil"
+	details = "Responsável pelo desenvolvimento e entrega de propostas técnicas em nuvem, cobrindo migração, modernização, DevOps, Kubernetes, containers, CI/CD, segurança e otimização de custos. Desenho arquiteturas de soluções alinhadas às melhores práticas AWS, apresento soluções propostas diretamente aos clientes e lidero avaliações usando o AWS Well-Architected Framework, identificando oportunidades de melhoria com foco em eficiência de custos, segurança e modernização."
+
+        [[params.jobs.list]]
         position = "Senior Cloud Solutions Architect"
-        dates = "04/2025 - *Present*"
+        dates = "04/2025 - 09/2025"
 		link = "https://www.la.logicalis.com/"
         company = "Logicalis"
 	details = "Atuo no desenvolvimento de soluções em nuvem, com foco em migração e modernização de workloads. Desenho arquiteturas escaláveis e seguras, alinhadas às necessidades dos clientes, promovendo eficiência operacional, inovação e geração de valor para grandes empresas."
