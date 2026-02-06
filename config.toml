@@ -143,7 +143,7 @@ ignoreErrors = ["error-disable-taxonomy"]
         [[params.jobs.list]]
         position = "Arquiteto de Soluções Cloud"
         dates = "10/2025 - *Present*"
-		link = "https://www.dnxbrasil.com.br/"
+		link = "https://www.dnxbrasil.com/"
         company = "DNX Brasil"
 	details = "Responsável pelo desenvolvimento e entrega de propostas técnicas em nuvem, cobrindo migração, modernização, DevOps, Kubernetes, containers, CI/CD, segurança e otimização de custos. Desenho arquiteturas de soluções alinhadas às melhores práticas AWS, apresento soluções propostas diretamente aos clientes e lidero avaliações usando o AWS Well-Architected Framework, identificando oportunidades de melhoria com foco em eficiência de custos, segurança e modernização."
 
