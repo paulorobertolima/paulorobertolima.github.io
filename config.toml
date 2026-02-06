@@ -138,7 +138,7 @@ ignoreErrors = ["error-disable-taxonomy"]
     [params.experiences]
         title = "Experiences"
 
-# PROMPT CHATGPT: Dê uma olhada na minha experiência profissional no LinkedIn. Nela, tenho algumas empresas e várias experiências diferentes. Crie um único texto corrido para cada empresa listada, agrupando todas as experiências em uma única empresa em um único texto corrido, conciso e bastante resumido, com no máximo duas linhas. Desconsidere totalmente as competências citadas. Não precisa listar as funções exercidas na empresa e atente-se para não criar mais de um texto por empresa: "Colar experiência do LinkedIn"
+## PROMPT CHATGPT: Dê uma olhada na minha experiência profissional no LinkedIn. Nela, tenho algumas empresas e várias experiências diferentes. Crie um único texto corrido para cada empresa listada, agrupando todas as experiências em uma única empresa em um único texto corrido, conciso e bastante resumido, com no máximo duas linhas. Desconsidere totalmente as competências citadas. Não precisa listar as funções exercidas na empresa e atente-se para não criar mais de um texto por empresa: "Colar experiência do LinkedIn"
 
         [[params.jobs.list]]
         position = "Arquiteto de Soluções Cloud"
