@@ -1,0 +1,267 @@
+##ngbaseURL = "https://prslima.github.io/paulorobertolima.cloud/"
+baseURL = "https://paulorobertolima.github.io/"
+languageCode = "en-us"
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
+
+[build]
+    writeStats = true
+
+[params]
+    title = "Paulo Roberto Lima"
+    author = "Paulo Roberto Lima"
+    description = "Sobre mim"
+    copyright = "@paulo_rslima 2025"
+    theme = "dark" # `dark` or `light`
+
+    # Profile section
+    [params.profile]
+        name = "Paulo Roberto Lima"
+        title = "Atibaia - SP"
+        photo = "images/profile.jpg"
+
+    # Section for links to social websites
+    [params.social]
+        title = "Links"
+
+        [[params.social.list]]
+        icon = "fab fa-linkedin-in"
+        url = "https://www.linkedin.com/in/paulorobertolima93/"
+        title = "LinkedIn"
+
+	[[params.social.list]]
+        icon = "fab fa-instagram"
+		url = "https://www.instagram.com/paulo_rslima/"
+        title = "Instagram"
+		
+        [[params.social.list]]
+        icon = "fab fa-github"
+        url = "https://github.com/prslima"
+        title = "GitHub"
+		
+    # Education section
+    [params.education]
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "AWS Certified Solutions Architect - Professional"
+        college = "53HPGM4DSEQEQ1SG"
+        dates = "December, 2026"
+        thesis_title = "https://aws.amazon.com/verification"
+        thesis_link = "https://aws.amazon.com/verification"
+
+        [[params.education.list]]
+        degree = "AWS Certified Solutions Architect - Associate"
+        college = "0HSVF9Q2JB14QCSR"
+        dates = "December, 2026"
+        thesis_title = "https://aws.amazon.com/verification"
+        thesis_link = "https://aws.amazon.com/verification"
+
+        [[parms.education.list]]
+        degree = "AWS Certified SysOps Administrator - Associate"
+        college = "0NS8E0GKD211QKCZ"
+        dates = "December, 2027"
+        thesis_title = "https://aws.amazon.com/verification"
+        thesis_link = "https://aws.amazon.com/verification"
+
+        [[params.education.list]]
+        degree = "AWS Certified AI Practitioner"
+        college = "793dcf7b9b084161829428082c6b1426"
+        dates = "January, 2028"
+        thesis_title = "https://aws.amazon.com/verification"
+        thesis_link = "https://aws.amazon.com/verification"
+
+        [[params.education.list]]
+        degree = "AWS Certified Cloud Practitioner"
+        college = "FB79DR42ENV1Q3KP"
+        dates = "December, 2027"
+        thesis_title = "https://aws.amazon.com/verification"
+        thesis_link = "https://aws.amazon.com/verification"
+
+        [[params.education.list]]
+        degree = "AWS Certified DevOps Engineer - Professional"
+        college = "YMK63BX2KE11QZ33"
+        dates = "Expired"
+        thesis_title = "https://aws.amazon.com/verification"
+        thesis_link = "https://aws.amazon.com/verification"
+
+        [[params.education.list]]
+        degree = "AWS Certified Developer Associate"
+        college = "SRB3T50KCJFE1GWB"
+        dates = "Expired"
+        thesis_title = "https://aws.amazon.com/verification"
+        thesis_link = "https://aws.amazon.com/verification"
+
+        [[params.education.list]]
+        degree = "Tecnologia em Redes de Computadores"
+        college = "Faculdades Integradas Paulista"
+        dates = "2011-2012"
+#        thesis_title = "Title of the dissertation"
+#        thesis_link = "#"
+
+    # Languages section
+    [params.language]
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "Portuguese"
+        level = "Native"
+				
+        [[params.language.list]]
+        language = "English"
+        level = "Intermediate"
+
+    # Interests section
+#    [params.hobbies]
+#        title = "Hobbies"
+#
+#        [[params.hobbies.list]]
+#        interest = "Family"
+#
+#        [[params.hobbies.list]]
+#        interest = "Technology"
+#		
+#	[[params.hobbies.list]]
+#        interest = "Games"
+#
+#        [[params.hobbies.list]]
+#        interest = "Music"
+#
+#        [[params.hobbies.list]]
+#        interest = "Soccer"
+
+    [params.aboutme]
+        description = "Tenho +10 anos de experiência em Cloud Computing, DevOps e Arquitetura de Soluções, ajudando empresas a escalar infraestruturas, reduzir custos e otimizar operações com AWS, Kubernetes, Terraform e CI/CD."
+
+    # Experiences section
+    [params.experiences]
+        title = "Experiences"
+
+# PROMPT CHATGPT: Dê uma olhada na minha experiência profissional no LinkedIn. Nela, tenho algumas empresas e várias experiências diferentes. Crie um único texto corrido para cada empresa listada, agrupando todas as experiências em uma única empresa em um único texto corrido, conciso e bastante resumido, com no máximo duas linhas. Desconsidere totalmente as competências citadas. Não precisa listar as funções exercidas na empresa e atente-se para não criar mais de um texto por empresa: "Colar experiência do LinkedIn"
+
+        [[params.jobs.list]]
+        position = "Senior Cloud Solutions Architect"
+        dates = "04/2025 - *Present*"
+		link = "https://www.la.logicalis.com/"
+        company = "Logicalis"
+	details = "Atuo no desenvolvimento de soluções em nuvem, com foco em migração e modernização de workloads. Desenho arquiteturas escaláveis e seguras, alinhadas às necessidades dos clientes, promovendo eficiência operacional, inovação e geração de valor para grandes empresas."
+
+        [[params.jobs.list]]
+        position = "Arquiteto de Soluções Cloud Sênior"
+        dates = "08/2024 - 03/2025"
+		link = "https://www.itau.com.br/"
+        company = "Itaú Unibanco"
+    	details = "Atuo na evolução de arquiteturas de soluções em nuvem, focando na otimização de recursos, melhoria de desempenho e alinhamento com melhores práticas de mercado para garantir segurança, confiabilidade e eficiência de custos."
+
+        [[params.jobs.list]]
+        position = "Especialista em Soluções em Nuvem"
+        dates = "08/2015 - 07/2024"
+		link = "https://www.brlink.com.br/"
+        company = "BRLink, an Ingram Micro Company"
+    	details = "Fui responsável pelo planejamento e implantação de arquiteturas em nuvem, desenvolvimento de escopos técnicos e propostas comerciais, liderando negociações e fechando grandes negócios, além de gerenciar canais de parceiros e ampliar a base de clientes."
+
+        [[params.jobs.list]]
+        position = "Administrador de Redes"
+        dates = "02/2011 - 07/2015"
+	    link = "https://atvonline.net.br/"
+        company = "Ativaonline Editora"
+        details = "Administrei a infraestrutura de rede da empresa, otimizando a segurança e eficiência dos sistemas, gerenciando servidores Linux e Windows, e implementando políticas de segurança cibernética para proteger dados e operações."
+
+    # Projects section
+    [params.projects]
+        title = "Projects"
+
+	[[params.projects.list]]
+        title = "Entidade do setor financeiro - Migração de todo o datacenter"
+        url = "#"
+        description = "Migramos 71 sistemas on-premise para a nuvem AWS, garantindo segurança, resiliência e alta performance conforme o Well-Architected Framework. Implementamos uma migração meticulosa e sem interrupções, otimizando a infraestrutura para suportar a demanda crescente com eficiência."
+
+	[[params.projects.list]]
+        title = "Uma das maiores empresas do ramo varejista - Implantação de pipelines de deployment automatizados"
+        url = "#"
+        description = "Implementamos uma nova arquitetura com milhares de aplicações usando pipelines de deployment automatizados para Kubernetes com Istio. Adotamos uma estratégia de Canary Release que permitiu uma implantação gradual e segura das novas versões de aplicativos, assegurando a estabilidade e a satisfação dos usuários durante todo o processo de atualização."
+
+	[[params.projects.list]]
+        title = "Empresa especializada em educação a distância - Migração de banco de dados EC2 para RDS"
+        url = "#"
+        description = "Evoluímos a gestão operacional de um grande banco de dados executado em instância EC2 para melhorar a escalabilidade e disponibilidade. Implementamos uma migração meticulosa usando SCT e DMS, alcançando uma migração zero downtime que elevou significativamente a eficiência e confiabilidade da plataforma."
+
+	[[params.projects.list]]
+        title = "Associação do mercado financeiro - Implantação de cultura e processos FinOps"
+        url = "#"
+        description = "O desafio consistiu em implementar uma cultura e processos FinOps para otimizar os custos operacionais e melhorar a gestão de novos projetos e arquiteturas. Reduzimos significativamente as despesas operacionais, garantindo uma abordagem mais assertiva e econômica na gestão financeira dos recursos em nuvem."
+
+	[[params.projects.list]]
+        title = "Plataforma de distribuição digital de músicas - Migração de dados on-premises para S3 na AWS."
+        url = "#"
+        description = "Migramos uma enorme quantidade de dados de um ambiente on-premises para a AWS S3, garantindo segurança, integridade e eficiência na transferência de dados. Realizamos uma migração sem falhas, proporcionando à plataforma maior capacidade de armazenamento e flexibilidade para atender às necessidades de crescimento e demanda dos usuários."
+
+        [[params.projects.list]]
+        title = "Empresa especializada no desenvolvimento de software - Migração para a nuvem"
+        url = "#"
+        description = "A empresa lidava com o crescimento exponencial de dados e acessos em uma solução hospedada em servidores físicos, que afetava sua disponibilidade. Criamos uma estratégia robusta de migração para a nuvem AWS, utilizando testes avançados para garantir uma transição suave e resultados excepcionais no novo ambiente escalável e resiliente."
+		
+ #   # Skills section
+ #   [params.skills]
+ #       title = "Skills"
+
+ #       [[params.skills.list]]
+ #       skill = "AWS"
+ #       skillrating = 90 # out of 100
+                
+ #       [[params.skills.list]]
+ #       skill = "Azure"
+ #       skillrating = 60 # out of 100
+                
+ #       [[params.skills.list]]
+ #       skill = "Leadership"
+ #       skillrating = 80 # out of 100
+
+ #       [[params.skills.list]]
+ #       skill = "FinOps"
+ #       skillrating = 80 # out of 100
+                
+ #       [[params.skills.list]]
+ #       skill = "DevOps"
+ #       skillrating = 75 # out of 100
+                
+ #       [[params.skills.list]]
+ #       skill = "Linux"
+ #       skillrating = 80
+		
+ #       [[params.skills.list]]
+ #       skill = "Windows"
+ #       skillrating = 75
+
+ #       [[params.skills.list]]
+ #       skill = "Database"
+ #       skillrating = 30
+
+ #       [[params.skills.list]]
+ #       skill = "Storage"
+ #       skillrating = 70
+
+ #       [[params.skills.list]]
+ #       skill = "Networking"
+ #       skillrating = 55
+
+ #       [[params.skills.list]]
+ #       skill = "Automation"
+ #       skillrating = 75
+
+ #       [[params.skills.list]]
+ #       skill = "Security"
+ #       skillrating = 75
+
+ #       [[params.skills.list]]
+ #       skill = "Negotiation"
+ #       skillrating = 60
+
+ #       [[params.skills.list]]
+ #       skill = "Communication"
+ #       skillrating = 85
+
+ #       [[params.skills.list]]
+ #       skill = "Business Strategy"
+ #       skillrating = 60
+

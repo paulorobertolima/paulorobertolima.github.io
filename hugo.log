@@ -1,0 +1,72 @@
+nohup: ignoring input
+Start building sites … 
+hugo v0.111.3+extended linux/amd64 BuildDate=2023-03-16T08:41:31Z VendorInfo=debian:0.111.3-1
+
+                   | EN  
+-------------------+-----
+  Pages            |  3  
+  Paginator pages  |  0  
+  Non-page files   |  0  
+  Static files     |  2  
+  Processed images |  0  
+  Aliases          |  0  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Built in 1423 ms
+Watching for changes in /git/paulorobertolima.github.io-hugo/{archetypes,assets,content,layouts,package.json,postcss.config.js,static,tailwind.config.js}
+Watching for config changes in /git/paulorobertolima.github.io-hugo/config.toml
+Environment: "development"
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:1313/ (bind address 0.0.0.0)
+Press Ctrl+C to stop
+
+Change of config file detected, rebuilding site.
+2025-07-02 20:20:07.203 +0000
+Rebuilt in 1462 ms
+
+Change of config file detected, rebuilding site.
+2025-07-02 20:21:22.702 +0000
+Rebuilt in 1611 ms
+
+Change of config file detected, rebuilding site.
+2025-07-02 20:22:21.203 +0000
+Rebuilt in 1493 ms
+
+Change of config file detected, rebuilding site.
+2025-07-02 20:22:35.202 +0000
+Rebuilt in 1453 ms
+
+Change of config file detected, rebuilding site.
+2025-07-02 20:22:41.703 +0000
+Rebuilt in 1457 ms
+
+Change of config file detected, rebuilding site.
+2025-07-02 20:23:14.703 +0000
+Rebuilt in 1445 ms
+
+Change of config file detected, rebuilding site.
+2025-07-02 20:23:30.702 +0000
+Rebuilt in 1454 ms
+
+Change of config file detected, rebuilding site.
+2025-07-02 20:28:17.703 +0000
+Rebuilt in 1446 ms
+
+Change of config file detected, rebuilding site.
+2025-07-02 20:28:32.203 +0000
+ERROR 2025/07/02 20:28:32 Failed to reload config: "/git/paulorobertolima.github.io-hugo/config.toml:268:6": unmarshal failed: toml: expected character =
+Rebuilt in 0 ms
+
+Change of config file detected, rebuilding site.
+2025-07-02 20:29:03.703 +0000
+Rebuilt in 1435 ms
+
+Change of config file detected, rebuilding site.
+2025-07-02 20:29:59.203 +0000
+Rebuilt in 1490 ms
+
+Change of config file detected, rebuilding site.
+2025-07-02 20:30:02.694 +0000
+Rebuilt in 1450 ms
