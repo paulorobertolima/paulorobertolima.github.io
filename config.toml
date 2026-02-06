@@ -1,5 +1,6 @@
 ##ngbaseURL = "https://prslima.github.io/paulorobertolima.cloud/"
 baseURL = "https://paulorobertolima.github.io/"
+publishDir = "public"
 languageCode = "en-us"
 disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
