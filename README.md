@@ -1,22 +1,19 @@
-# sada Theme
+# Portfolio
 
-The sada Theme is a one page responsive portfolio created using Tailwind CSS with light and dark theme.
+Personal portfolio and resume online.
 
-## Live demo
+Built with Hugo and Tailwind CSS.
 
-[Click here](https://sadademo.netlify.com/) for live demo.
+## Requirements
 
-## Installation
+- Hugo 0.87+
+- Node.js 16+
 
-Inside the folder of your Hugo site run:
+## Running Locally
 
-```shell
-git clone https://github.com/darshanbaral/sada.git
-cd sada
+```bash
 npm install
 hugo server
 ```
 
-## Getting started
-
-After installing the Sada Theme successfully, modify the `config.toml` as you wish to generate your online resume.
+Open `http://localhost:1313`
